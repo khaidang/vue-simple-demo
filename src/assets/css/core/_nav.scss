@@ -1,0 +1,13 @@
+.navbar-toggler {
+    outline: none !important;
+}
+
+.navbar-nav {
+    a {
+        cursor: pointer;
+        color: $dark_blue !important;
+    }
+    .router-link-exact-active {
+        color: $orange_cus !important;
+    }
+}
